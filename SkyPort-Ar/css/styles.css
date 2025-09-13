@@ -92,10 +92,6 @@ p {
   /* margin: 4% 2% 4% 20%;
   padding: 0% 3% 0% 20%; */
 }
-.img_co1{
-
-
-}
 
 
 .navbar-brand {
@@ -119,12 +115,7 @@ p {
   margin: 0% -110% 0px -20%;
 } */
 
-.v{
-  /* display: flex;
-  flex-direction:row;
-  flex-wrap: wrap;
-  justify-content: flex-end; */
-}
+
 .v .navbar-brand2 {
   /* display: flex;
   flex-direction:row-reverse; djy
@@ -203,9 +194,6 @@ Navbar - عصري وشفاف
 } */  
 
 /* ضبط الهيرو لتبدأ من تحت navbar */
-.hero-section {
-}  
-
 
 
 
@@ -916,10 +904,6 @@ Responsive
   .tpps strong {
     color: #489cef;
   }
-  .container{
-    
-  }
-  
 
   
 

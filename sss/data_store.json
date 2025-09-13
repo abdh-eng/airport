@@ -1,0 +1,942 @@
+{
+  "users": [
+    {
+      "id": "user-{'id': 'admin-1', 'username': 'admin', 'password': 'Admin@123', 'usertype': 'Admin', 'phone': '731234567', 'gender': 'M', 'is_active': True, 'loyalty_points': 0}",
+      "username": {
+        "id": "admin-1",
+        "username": "admin",
+        "password": "Admin@123",
+        "usertype": "Admin",
+        "phone": "731234567",
+        "gender": "M",
+        "is_active": true,
+        "loyalty_points": 0
+      },
+      "password_hash": "82323e5b1cf7fb32e55785a74dd34825473ab567f809c7049d641fa5d189c694",
+      "usertype": {
+        "id": "cust-1",
+        "username": "customer1",
+        "password": "Cust@1234",
+        "usertype": "Customer",
+        "phone": "781234567",
+        "gender": "M",
+        "is_active": true,
+        "loyalty_points": 150
+      },
+      "phone": {
+        "username": "admin",
+        "password": "Admin@123",
+        "role": "Admin",
+        "active": true,
+        "gender": "Male",
+        "phonenumber": "731234567"
+      },
+      "gender": "M",
+      "is_active": true,
+      "loyalty_points": 0
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "name": "TOYOTA COROLLA",
+      "model_year": "2020",
+      "price": 20000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "2",
+      "name": "HONDA CIVIC",
+      "model_year": "2019",
+      "price": 21000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "3",
+      "name": "NISSAN ALTIMA",
+      "model_year": "2021",
+      "price": 23000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "4",
+      "name": "MAZDA 3",
+      "model_year": "2020",
+      "price": 19500,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "5",
+      "name": "SUBARU IMPREZA",
+      "model_year": "2018",
+      "price": 18000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "6",
+      "name": "TOYOTA YARIS",
+      "model_year": "2021",
+      "price": 16000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "7",
+      "name": "HONDA FIT",
+      "model_year": "2019",
+      "price": 15000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "8",
+      "name": "NISSAN VERSA",
+      "model_year": "2020",
+      "price": 14500,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "9",
+      "name": "MITSUBISHI MIRAGE",
+      "model_year": "2021",
+      "price": 14000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "10",
+      "name": "TOYOTA SUPRA",
+      "model_year": "2021",
+      "price": 50000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "11",
+      "name": "NISSAN GT-R",
+      "model_year": "2021",
+      "price": 115000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "12",
+      "name": "HONDA NSX",
+      "model_year": "2020",
+      "price": 100000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "13",
+      "name": "LEXUS LC",
+      "model_year": "2021",
+      "price": 92000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "14",
+      "name": "TOYOTA CAMRY",
+      "model_year": "2020",
+      "price": 24000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "15",
+      "name": "HONDA ACCORD",
+      "model_year": "2019",
+      "price": 25000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "16",
+      "name": "NISSAN SENTRA",
+      "model_year": "2020",
+      "price": 20000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "17",
+      "name": "MAZDA CX-5",
+      "model_year": "2020",
+      "price": 27000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "18",
+      "name": "TOYOTA RAV4",
+      "model_year": "2021",
+      "price": 30000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "19",
+      "name": "HONDA CR-V",
+      "model_year": "2021",
+      "price": 29000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "20",
+      "name": "NISSAN ROGUE",
+      "model_year": "2020",
+      "price": 28000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "21",
+      "name": "SUBARU FORESTER",
+      "model_year": "2021",
+      "price": 27000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "22",
+      "name": "TOYOTA PRIUS",
+      "model_year": "2020",
+      "price": 24000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "23",
+      "name": "HONDA HR-V",
+      "model_year": "2021",
+      "price": 25000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "24",
+      "name": "MAZDA MX-5",
+      "model_year": "2021",
+      "price": 32000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "25",
+      "name": "LEXUS RX",
+      "model_year": "2021",
+      "price": 45000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "26",
+      "name": "NISSAN 370Z",
+      "model_year": "2019",
+      "price": 35000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "27",
+      "name": "TOYOTA AVALON",
+      "model_year": "2020",
+      "price": 36000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "28",
+      "name": "HONDA ODYSSEY",
+      "model_year": "2021",
+      "price": 38000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "29",
+      "name": "NISSAN MURANO",
+      "model_year": "2020",
+      "price": 33000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "30",
+      "name": "SUBARU OUTBACK",
+      "model_year": "2021",
+      "price": 34000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "31",
+      "name": "TOYOTA HIGHLANDER",
+      "model_year": "2021",
+      "price": 41000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "32",
+      "name": "LEXUS ES",
+      "model_year": "2020",
+      "price": 40000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "33",
+      "name": "HONDA PILOT",
+      "model_year": "2021",
+      "price": 42000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "34",
+      "name": "NISSAN PATHFINDER",
+      "model_year": "2020",
+      "price": 39000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "35",
+      "name": "MAZDA CX-9",
+      "model_year": "2021",
+      "price": 43000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "36",
+      "name": "TOYOTA 86",
+      "model_year": "2020",
+      "price": 30000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "37",
+      "name": "SUBARU BRZ",
+      "model_year": "2020",
+      "price": 29000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "38",
+      "name": "HONDA S2000",
+      "model_year": "2009",
+      "price": 27000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "39",
+      "name": "NISSAN Z",
+      "model_year": "2021",
+      "price": 35000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "40",
+      "name": "TOYOTA TACOMA",
+      "model_year": "2021",
+      "price": 33000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "41",
+      "name": "HONDA RIDGELINE",
+      "model_year": "2020",
+      "price": 36000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "42",
+      "name": "NISSAN TITAN",
+      "model_year": "2020",
+      "price": 40000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "43",
+      "name": "MAZDA BT-50",
+      "model_year": "2021",
+      "price": 38000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "44",
+      "name": "TOYOTA LAND CRUISER",
+      "model_year": "2021",
+      "price": 85000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "45",
+      "name": "LEXUS GX",
+      "model_year": "2020",
+      "price": 60000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "46",
+      "name": "HONDA ELEMENT",
+      "model_year": "2011",
+      "price": 15000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "47",
+      "name": "NISSAN JUKE",
+      "model_year": "2019",
+      "price": 17000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "48",
+      "name": "MAZDA 2",
+      "model_year": "2018",
+      "price": 13000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "49",
+      "name": "TOYOTA SIENNA",
+      "model_year": "2020",
+      "price": 35000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "50",
+      "name": "HONDA ELEMENT",
+      "model_year": "2011",
+      "price": 15000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "51",
+      "name": "NISSAN LEAF",
+      "model_year": "2021",
+      "price": 32000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "52",
+      "name": "TOYOTA COROLLA CROSS",
+      "model_year": "2021",
+      "price": 25000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "53",
+      "name": "HONDA VEZEL",
+      "model_year": "2021",
+      "price": 26000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "54",
+      "name": "NISSAN KICKS",
+      "model_year": "2021",
+      "price": 24000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "55",
+      "name": "MAZDA CX-30",
+      "model_year": "2021",
+      "price": 27000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "56",
+      "name": "TOYOTA YARIS CROSS",
+      "model_year": "2021",
+      "price": 23000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "57",
+      "name": "LEXUS NX",
+      "model_year": "2021",
+      "price": 43000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "58",
+      "name": "HONDA HR-V",
+      "model_year": "2021",
+      "price": 25000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "59",
+      "name": "NISSAN ARIYA",
+      "model_year": "2021",
+      "price": 45000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "60",
+      "name": "TOYOTA C-HR",
+      "model_year": "2021",
+      "price": 27000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "61",
+      "name": "MAZDA MX-5 RF",
+      "model_year": "2021",
+      "price": 35000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "62",
+      "name": "LEXUS LC500",
+      "model_year": "2021",
+      "price": 95000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "63",
+      "name": "HONDA NSX",
+      "model_year": "2021",
+      "price": 100000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "64",
+      "name": "NISSAN GT-R Nismo",
+      "model_year": "2021",
+      "price": 210000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "65",
+      "name": "TOYOTA GR Supra",
+      "model_year": "2021",
+      "price": 50000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "66",
+      "name": "SUBARU WRX",
+      "model_year": "2021",
+      "price": 35000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "67",
+      "name": "NISSAN 350Z",
+      "model_year": "2009",
+      "price": 28000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "68",
+      "name": "TOYOTA MR2",
+      "model_year": "2005",
+      "price": 18000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "69",
+      "name": "HONDA CR-Z",
+      "model_year": "2016",
+      "price": 20000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "70",
+      "name": "MAZDA RX-8",
+      "model_year": "2012",
+      "price": 22000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "71",
+      "name": "TOYOTA HILUX",
+      "model_year": "2021",
+      "price": 35000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "72",
+      "name": "NISSAN NAVARA",
+      "model_year": "2021",
+      "price": 36000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "73",
+      "name": "HONDA RIDGELINE",
+      "model_year": "2020",
+      "price": 37000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "74",
+      "name": "MAZDA BT-50",
+      "model_year": "2021",
+      "price": 38000,
+      "color": "",
+      "specs": "category:Popular,",
+      "status": "available"
+    },
+    {
+      "id": "75",
+      "name": "TOYOTA FJ CRUISER",
+      "model_year": "2020",
+      "price": 42000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "76",
+      "name": "SUBARU CROSSTREK",
+      "model_year": "2021",
+      "price": 27000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "77",
+      "name": "NISSAN MURANO CROSSCABA",
+      "model_year": "2021",
+      "price": 43000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "78",
+      "name": "LEXUS UX",
+      "model_year": "2021",
+      "price": 39000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "79",
+      "name": "TOYOTA RAV4 PRIME",
+      "model_year": "2021",
+      "price": 43000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "80",
+      "name": "HONDA CR-V HYBRID",
+      "model_year": "2021",
+      "price": 38000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "81",
+      "name": "NISSAN PATHFINDER HYBRID",
+      "model_year": "2021",
+      "price": 45000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "82",
+      "name": "MAZDA CX-8",
+      "model_year": "2021",
+      "price": 42000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "83",
+      "name": "TOYOTA COROLLA SEDAN",
+      "model_year": "2021",
+      "price": 24000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "84",
+      "name": "HONDA CIVIC SEDAN",
+      "model_year": "2021",
+      "price": 25000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "85",
+      "name": "NISSAN SENTRA SEDAN",
+      "model_year": "2021",
+      "price": 22000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "86",
+      "name": "TOYOTA CAMRY XLE",
+      "model_year": "2021",
+      "price": 28000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "87",
+      "name": "LEXUS ES 350",
+      "model_year": "2021",
+      "price": 40000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "88",
+      "name": "MAZDA 6",
+      "model_year": "2021",
+      "price": 26000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "89",
+      "name": "SUBARU LEGACY",
+      "model_year": "2021",
+      "price": 27000,
+      "color": "",
+      "specs": "category:Sedan,",
+      "status": "available"
+    },
+    {
+      "id": "90",
+      "name": "TOYOTA PRIUS PRIME",
+      "model_year": "2021",
+      "price": 30000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "91",
+      "name": "NISSAN LEAF PLUS",
+      "model_year": "2021",
+      "price": 35000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "92",
+      "name": "HONDA FIT SPORT",
+      "model_year": "2021",
+      "price": 18000,
+      "color": "",
+      "specs": "category:Economy,",
+      "status": "available"
+    },
+    {
+      "id": "93",
+      "name": "TOYOTA RAV4 HYBRID",
+      "model_year": "2021",
+      "price": 35000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "94",
+      "name": "NISSAN X-TRAIL",
+      "model_year": "2021",
+      "price": 32000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "95",
+      "name": "LEXUS RX 350",
+      "model_year": "2021",
+      "price": 45000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "96",
+      "name": "MAZDA CX-5 GRAND TOURING",
+      "model_year": "2021",
+      "price": 38000,
+      "color": "",
+      "specs": "category:SUV,",
+      "status": "available"
+    },
+    {
+      "id": "97",
+      "name": "TOYOTA 86 GR",
+      "model_year": "2021",
+      "price": 35000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "98",
+      "name": "NISSAN GT-R NISMO",
+      "model_year": "2021",
+      "price": 210000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "99",
+      "name": "HONDA NSX TYPE R",
+      "model_year": "2021",
+      "price": 150000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    },
+    {
+      "id": "100",
+      "name": "LEXUS LC500H",
+      "model_year": "2021",
+      "price": 95000,
+      "color": "",
+      "specs": "category:Sports,",
+      "status": "available"
+    }
+  ],
+  "invoices": []
+}
